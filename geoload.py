@@ -6,9 +6,12 @@ import time
 import ssl
 import sys
 
-api_key = False
+api_key = 'AIzaSyA0GjtWv26PCW7MT02oe3DlxUqH4vpEutI'
 # If you have a Google Places API key, enter it here
 # api_key = 'AIzaSy___IDByT70'
+
+# google api key 1 google	AIzaSyDqZBJWviyoY3RfrIQvjjIZySgKvGwFBAE
+# google api key 2 AIzaSyA0GjtWv26PCW7MT02oe3DlxUqH4vpEutI
 
 if api_key is False:
     serviceurl = "http://py4e-data.dr-chuck.net/geojson?"
